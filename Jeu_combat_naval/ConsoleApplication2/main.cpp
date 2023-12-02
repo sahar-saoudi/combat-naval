@@ -1,10 +1,3 @@
-/*
- * fichier : main.cpp
- * auteur.e : Marie-Flavie Auclair-Fortier
- * date : 01/08/2019
- * modifié par : Marie-Flavie Auclair-Fortier - octobre 2019
- * modifié par : Marie-Flavie Auclair-Fortier - mars 2020
- */
 
  // bibliothèques personnelles
 #include "batailleNavale.h" // bibliothèque contenant le code du jeu
