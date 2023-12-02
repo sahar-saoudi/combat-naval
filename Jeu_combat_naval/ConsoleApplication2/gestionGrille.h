@@ -1,14 +1,3 @@
-//
-//  gestionGrille.h
-//  D5_BatailleNavale
-//
-//  Created by Marie-Flavie Auclair-Fortier on 2019-10-10.
-// 
-// Modifié par : Sahar Saoudi - Cristiano Doresca
-// date : 13-11-2023
-// 
-//  Copyright © 2019 Marie-Flavie Auclair-Fortier. All rights reserved.
-//
 
 #ifndef gestionGrille_h
 #define gestionGrille_h
@@ -34,16 +23,16 @@ enum class ContenuCase {
     MANQUE = 7                   // Represente un tir manque
 };
 
-// type synonyme représentant une grille 2D 
+// type synonyme reprÃ©sentant une grille 2D 
 using Grille = char[NB_COLS][NB_LIGS];
 
 // Declarations des fonctions publiques de la bibliotheque
 
 // description : Ce module permet d'afficher une grille (bateaux ou tirs)
 // param[E] :Grille, grille a afficher
-// retour : Chaîne de caractères, grille affichée
-// pre : grille non affichée
-// post : grille affichée
+// retour : ChaÃ®ne de caractÃ¨res, grille affichÃ©e
+// pre : grille non affichÃ©e
+// post : grille affichÃ©e
 
 void afficherGrille(const Grille&);
 
@@ -55,11 +44,11 @@ void afficherGrille(const Grille&);
 
 void initialiserGrille(Grille&);
 
-// description : Valide si l’attaque est faite dans la grille de jeu
-// param[E] : Position, Position à valider
-// retour : Booléen, False si object est en dehors des lignes ou des colonnes, True sinon
-// pre :  Position non validée
-// post : Position validée
+// description : Valide si lâ€™attaque est faite dans la grille de jeu
+// param[E] : Position, Position Ã  valider
+// retour : BoolÃ©en, False si object est en dehors des lignes ou des colonnes, True sinon
+// pre :  Position non validÃ©e
+// post : Position validÃ©e
 
 bool validerPosition(Position);
 
